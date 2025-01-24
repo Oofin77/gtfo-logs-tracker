@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from andocas.com/gtfo/log-tracker/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Jan 2025 23:59:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="UTF-8" />
+		<title>GTFO Log Tracker</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="https://andocas.com/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="https://andocas.com/libraries/toastify/toastify.css" />
+		<meta property="og:title" content="GTFO Log Tracker" />
+		<meta property="og:description" content="Track your progress toward the D-Lock Block Decipherer achievement. No mods, no spreadsheets, no uncertainty." />
+		<meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/493520/ad5c474c372896b295d1d6510070d5782b8f0136.jpg" />
+		<meta property="description" content="Track your progress toward the D-Lock Block Decipherer achievement. No mods, no spreadsheets, no uncertainty." />
+	</head>
+	<body>
+		<div class="main">
+			<h1>GTFO Log Tracker</h1>
+			<p>Track your progress toward the D-Lock Block Decipherer achievement. No mods, no spreadsheets, no uncertainty.</p>
+			<p>All you have to do is open your <span class="code copy_on_click">Player.log</span> file. It should be located in <span class="code copy_on_click">%userprofile%\AppData\LocalLow\10 Chambers Collective\GTFO</span>.</p>
+			<img src="help.png" class="framed" />
+			<p>Your data never leaves your computer. All processing is done locally, in your browser.</p>
+			<div id="file_input_wrapper">
+				<p>
+					<label id="file_input_label">Open Player.log<input id="file_input" type="file" accept=".log" hidden /></label>
+					<!-- or
+					<button id="blank_table_button" type="button">View Blank Table</button> -->
+				</p>
+			</div>
+			<div id="output">
+				<p id="progress"></p>
+				<div id="table_wrapper">
+					<table id="log_table">
+						<thead>
+							<tr>
+								<th>Expedition</th>
+								<th>Zone</th>
+								<th>Name</th>
+								<th>Read</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="https://andocas.com/libraries/toastify/toastify.js"></script>
+	</body>
+
+<!-- Mirrored from andocas.com/gtfo/log-tracker/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Jan 2025 23:59:46 GMT -->
+</html>
